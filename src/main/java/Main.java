@@ -2,7 +2,7 @@ public class Main {
     public static int sumArray(String[][] array){
         int sum=0;
         //п.1 проверим размерность
-        if (array.length!=4) {  //будем считать что все строки в массиве всегда одинаковой длины
+        if (array.length!=4) {
             throw new MyArraySizeException(String.format("Array size exeption, line count = %d",array.length));
         }
 
